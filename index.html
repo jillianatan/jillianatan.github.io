@@ -25,6 +25,8 @@ body{
     text-align: center; 
    /* height: 100%;*/
 	  gap:10px;
+      align-content: flex-start;
+
   }
   
   .appInfo{
@@ -32,8 +34,9 @@ body{
    /* width: 20%;
     /*height: 20%;
       border: 5px solid red; */
-	 flex: 1 1 20%;   /* start at 20%, but can shrink/grow */
- 	 max-width: 20%;  /* cap it so they don’t grow too wide */
+	   flex: 0 1 calc(16.66% - 15px); /* 100% ÷ 6 = ~16.66% */
+  max-width: calc(16.66% - 15px);
+
 
     margin-right: 3%;
  
