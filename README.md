@@ -1,4 +1,4 @@
 # jillianatan.github.io
-Jillian's Portfolio (Currently Work In Progress)
+Jillian's Portfolio 
 <br>
 Access it here: https://jillianatan.github.io/
